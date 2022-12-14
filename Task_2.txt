@@ -1,0 +1,4 @@
+ git revert is used to record some new commits to reverse the effect of some earlier commits (often only a faulty one). 
+If you want to throw away all uncommitted changes in your working directory, you should see git-reset[1], particularly the --hard option. 
+If you want to extract specific files as they were in another commit, you should see git-restore[1], specifically the --source option.
+ Git revert-undo changes. In fact, it boils down to creating another commit that performs changes opposite to the commit that is canceled. 
