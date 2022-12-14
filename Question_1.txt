@@ -1,0 +1,7 @@
+Explain how the Git Show command works.
+Each commit has an identifier (they say "hash"),
+the hash is usually given already shortened 8 characters.
+Shows one or more objects (blobs, trees, tags and commits).
+For commits it shows the log message and textual diff.
+It also presents the merge commit in a special format 
+as produced by git diff-tree --cc.
